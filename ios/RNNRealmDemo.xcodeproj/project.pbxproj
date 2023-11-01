@@ -36,6 +36,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNNRealmDemo/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNNRealmDemo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNNRealmDemo/main.m; sourceTree = "<group>"; };
+		176751262AF11B7900B4A17C /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNNRealmDemo-RNNRealmDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNNRealmDemo-RNNRealmDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-RNNRealmDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNNRealmDemo.debug.xcconfig"; path = "Target Support Files/Pods-RNNRealmDemo/Pods-RNNRealmDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-RNNRealmDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNNRealmDemo.release.xcconfig"; path = "Target Support Files/Pods-RNNRealmDemo/Pods-RNNRealmDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 		13B07FAE1A68108700A75B9A /* RNNRealmDemo */ = {
 			isa = PBXGroup;
 			children = (
+				176751252AF11B7900B4A17C /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -94,6 +96,15 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = RNNRealmDemo;
+			sourceTree = "<group>";
+		};
+		176751252AF11B7900B4A17C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				176751262AF11B7900B4A17C /* Ionicons.ttf */,
+			);
+			name = Fonts;
+			path = RNNRealmDemo/Fonts;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
